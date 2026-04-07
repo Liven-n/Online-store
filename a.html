@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylea.css">
+    <title>Акции</title>
+</head>
+<body>
+    <h1>Название магазина</h1>
+    <h3>Наши лучшие предложения</h3>
+    <ul class="products clearfix">
+        <li class="product-wrapper">
+            <div class="product-photo">
+                <img src="ring1.jpg">
+            </div>
+            <a href="" class="product">Кольцо ручной работы с феонитом</a>
+            <p>Оригинальное, изящное украшение. Прекрасный подарок</p>
+            <div class="prise">
+                <div class="block">980</div>
+                <div class="block2">850</div>
+            </div>
+            <a href="pay.html" class="order">Оформить заказ</a>
+        </li>
+        <li class="product-wrapper">
+            <div class="product-photo">
+                <img src="z2.jpg">
+            </div>
+            <a href="" class="product">Значки на рюкзак или одежду "Adobe Systems"</a>
+            <p>Материал: экологически чистый цинковый сплав и краска; размер: 3см*3см</p>
+            <div class="prise">
+                <div class="block">350</div>
+                <div class="block2">299</div>
+            </div>
+            <a href="pay.html" class="order">Оформить заказ</a>
+        </li>
+        <li class="product-wrapper">
+            <div class="product-photo">
+                <img src="o3.jpg">
+            </div>
+            <a href="" class="product">Позравительная открытка, "Подсолнух"</a>
+            <p>Прекрасный и тёплый подарок любимому человеку. Ручная работа. Размер: 20см*15см</p>
+            <div class="prise">
+                <div class="block">149</div>
+                <div class="block2">100</div>
+            </div>
+            <a href="pay.html" class="order">Оформить заказ</a>
+        </li>
+        <li class="product-wrapper">
+            <div class="product-photo">
+                <img src="o4.jpg">
+            </div>
+            <a href="" class="product">Позравительная открытка, "Love"</a>
+            <p>Прекрасный, милый подарок близкому. Ручная работа. Размер: 14см*20см</p>
+            <div class="prise">
+                <div class="block">99</div>
+                <div class="block2">50</div>
+            </div>
+            <a href="pay.html" class="order">Оформить заказ</a>
+        </li>
+    </ul>
+    <script>
+    let buttons = document.querySelectorAll('.order');
+    buttons.forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            alert('Товар добавлен в корзину!'); 
+        });
+    });
+    </script>
+</body>

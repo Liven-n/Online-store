@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylek.css">
+    <title>Кольца</title>
+</head>
+<body>
+    <h1>Название магазина</h1>
+    <h3>Кольца</h3>
+    <ul class="products clearfix">
+        <li class="product-wrapper">
+            <div class="product-photo">
+                <img src="ring3.jpg">
+            </div>
+            <a href="" class="product">Литое кольцо из металла, серебро</a>
+            <p>Эксклюзивная тонкая работа. Прочное, не ржавеет</p>
+            <div class="prise">
+                <div class="block">1000</div>
+                <div class="block2">720</div>
+            </div>
+            <a href="pay.html" class="order">Оформить заказ</a>
+        </li>
+        <li class="product-wrapper">
+            <div class="product-photo">
+                <img src="ring.jpg">
+            </div>
+            <a href="" class="product">Кольцо из бисера, ручной работы</a>
+            <p>Уникальный дизнайн. Красивый и интересный орнамент</p>
+            <div class="prise">
+                <div class="block">520</div>
+                <div class="block2">350</div>
+            </div>
+            <a href="pay.html" class="order">Оформить заказ</a>
+        </li>
+        <li class="product-wrapper">
+            <div class="product-photo">
+                <img src="ring1.jpg">
+            </div>
+            <a href="" class="product">Кольцо ручной работы с феонитом</a>
+            <p>Оригинальное, изящное украшение. Прекрасный подарок</p>
+            <div class="prise">
+                <div class="block">980</div>
+                <div class="block2">850</div>
+            </div>
+            <a href="pay.html" class="order">Оформить заказ</a>
+        </li>
+        <li class="product-wrapper">
+            <div class="product-photo">
+                <img src="ring2.jpg">
+            </div>
+            <a href="" class="product">Штампованное кольцо "Ночной лес"</a>
+            <p>Медное кольцо. Подходит как для мужчин, так и для женщин. В наличии все размеры</p>
+            <div class="prise">
+                <div class="block">720</div>
+                <div class="block2">590</div>
+            </div>
+            <a href="pay.html" class="order">Оформить заказ</a>
+        </li>
+    </ul>
+    <script>
+    let buttons = document.querySelectorAll('.order');
+    buttons.forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            alert('Товар добавлен в корзину!'); 
+        });
+    });
+    </script>
+</body>

@@ -1,0 +1,93 @@
+h1{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size:9ex;
+    font-weight: bold;
+    font-style: italic;
+    color: #3e1e59;
+    font-stretch: ultra-expanded;
+    text-align: center;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+h3{
+    font-weight:lighter;
+    text-align: center;
+    color: #461322;
+}
+h6{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #3e1e59;
+    font-size: 3ex;
+    font-stretch: ultra-expanded;
+    text-align: right;
+    background-color: #fec38d;
+    position: sticky;
+    margin: 0;
+    padding: 25px 10px 30px 0px;
+}
+.aaa{
+    /*font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size:6ex;
+    margin-bottom: 10px;
+    color: #401e26;*/
+    font-family: Courier, monospace;
+    font-size: 3ex;
+    color: #3e0658;
+    padding: 1ex 0 1ex 0;
+    background-color: #cfd5b4;
+}
+table{
+    margin-top: 4%;
+}
+form{
+    font-size:5ex;
+    margin-top: 25px;
+}
+body {
+    /*background-image: url(m.jpg); 
+    background-attachment: fixed;
+    background-color: #dae1e5;*/
+    background-color: #f1efe8;
+}
+.poisk{
+    border: none;
+    height: 52px;
+    width: 90%;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    margin: 0;
+}
+.button{
+  position: relative;
+  border: none;
+  height: 52px;
+  width: 7.6%;
+  background: #e8a97e;
+}
+.zaglavie{
+    font-family: Courier, monospace;
+    font-size: 5ex;
+    color: #3e1e59;
+    background: #ffffff;
+}
+.pictures{
+    
+        /*height: auto;
+        width: 100%;
+        max-width: 720px;*/
+        position: relative;
+        padding-bottom: 100%;
+        overflow: hidden;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0;
+}
+.w {
+    width: 300px;
+  }

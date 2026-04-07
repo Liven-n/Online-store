@@ -1,0 +1,133 @@
+h1{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size:9ex;
+    font-weight: bold;
+    font-style: italic;
+    color: #3e1e59;
+    font-stretch: ultra-expanded;
+    text-align: center;
+    background-color: #ffffff;
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+h3{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size:6ex;
+    font-weight: bold;
+    color: #798259;
+    text-align:center;
+    margin: 20px 0 70px;
+	z-index: 1;
+
+}
+body {
+    background-color: #f1efe8;
+}
+.product-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
+}
+@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}
+.product {
+	display: block;
+	position: relative;
+	font-size:4ex;
+	margin: 0px 5px 0px;
+	border: black;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	background-color: #ffffff;
+    padding: 20px;
+}
+/*.products {
+	list-style: none;
+	margin: 0 -20px 0 0;
+	padding: 0;
+}*/
+.product-photo {
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+    z-index: 4;
+	margin: 0px 5px 0px;
+}
+.product-photo img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	transition: transform .4s ease-out;
+	
+}
+p {
+	background-color: #ffffff;
+	position: relative;
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4em;
+	height: 5.6em;
+	overflow: hidden;
+	margin: 0px 5px 0px;
+	padding: 20px;
+}
+.prise{
+	background-color: #ffffff;
+	width: 97.5%;
+	display: flex;
+	align-items: center;
+    justify-content: center; 
+	padding: 0 0 10px 0;
+	margin: 0 -5px 0px 5px;
+}
+.block {
+	font-size: 3ex;
+	text-align: center;
+	padding: -20px;
+	text-decoration-line: line-through;
+	color: #898989;
+    background-color: #ffffff;
+}
+
+.block2 {
+	font-size: 3ex;
+	color: #a70c5a;
+	text-align: center;
+	padding: 0 30px 0 20px;
+    background-color: #ffffff;
+}
+.order{
+	display: block;
+	position: relative;
+	text-align: center;
+	font-size:4ex;
+	margin: 0px 5px 60px;
+	padding: 10px 0 10px;
+	color: #474747;
+	z-index: 0;
+	background-color: #adb590;
+
+}
